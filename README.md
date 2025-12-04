@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rahulsangolli/swiggy-order-delivery-time-prediction/refs/heads/main/assets/banner.png"
+  <img src="https://raw.githubusercontent.com/rahulsangolli/swiggy-order-delivery-time-prediction/refs/heads/main/assets/afdae3cd-0a04-4d07-9d64-de3b92b5633d.png"
        alt="Banner" width="100%" style="max-height:240px; object-fit:cover; display:block; margin:0 auto;">
 </p>
 
@@ -45,7 +45,7 @@ The model considers real-world conditions such as distance, multiple delivery lo
 
 <h2 align="center" style="font-size:28px; font-weight:700;">🧠 Tech Stack</h2>
 
-<ul style="font-size:16px; line-height:1.8;">
+<ul style="font-size:16px; line-height:1.8%;">
 <li><b>Language:</b> Python</li>
 <li><b>ML Libraries:</b> Scikit-Learn, XGBoost, LightGBM</li>
 <li><b>Data Processing:</b> Pandas, NumPy</li>
@@ -59,7 +59,7 @@ The model considers real-world conditions such as distance, multiple delivery lo
 
 <h2 align="center" style="font-size:28px; font-weight:700;">⭐ Key Features</h2>
 
-<ul style="font-size:16px; line-height:1.8;">
+<ul style="font-size:16px; line-height:1.8%;">
 <li><b>Real Delivery Data</b> — Includes distance, location, weather, and rider stats.</li>
 <li><b>MLflow Integration</b> — Tracks all trained models and experiments.</li>
 <li><b>FastAPI Endpoint</b> — Easily make predictions using a REST API.</li>
@@ -76,7 +76,7 @@ The model considers real-world conditions such as distance, multiple delivery lo
 Let me walk you through how the entire system works in the simplest possible way.
 <br/><br/>
 Once the project is set up, we run the FastAPI backend using the terminal.  
-Below is a real screenshot from my terminal when I was testing the API locally:
+Below is a screenshot from my terminal when I was testing the API locally:
 </p>
 
 <p align="center">
@@ -84,7 +84,7 @@ Below is a real screenshot from my terminal when I was testing the API locally:
        alt="Terminal Output" width="90%" style="border-radius:8px;">
 </p>
 
-<p style="font-size:16px; line-height:1.75;">
+<p style="font-size:16px; line-height:1.75%;">
 Here’s what is happening in the above screenshot:
 </p>
 
@@ -95,7 +95,7 @@ Here’s what is happening in the above screenshot:
   <li>The API is now ready, listening for prediction requests.</li>
 </ul>
 
-<p style="font-size:16px; line-height:1.75;">
+<p style="font-size:16px; line-height:1.75%;">
 So whenever a user sends order details through the API (like distance, time of day, weather, etc.),  
 the backend instantly predicts the estimated delivery time.  
 <br/><br/>
@@ -106,7 +106,7 @@ This gives you a real production-like experience of how Swiggy internally proces
 
 <h2 align="center" style="font-size:28px; font-weight:700;">📈 Results</h2>
 
-<ul style="font-size:16px; line-height:1.8;">
+<ul style="font-size:16px; line-height:1.8%;">
 <li>Accurately predicts delivery time across multiple conditions.</li>
 <li>Successfully tracks all models using MLflow.</li>
 <li>Provides a clean API for real-time predictions.</li>
